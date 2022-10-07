@@ -1,0 +1,20 @@
+<form action=''>
+    <!--text input-->
+    text before <input id="" type="" name="" placeholder="" required> text after <!--required-->
+    text before <input id="" type="" name="" placeholder=""> text after <!--not required-->
+    <!--Select one out of multiple-->
+        <!--all inputs of type radio must have same name to make any one of them to be selected at a time-->
+    <fieldset>
+        <legend>caption for field</legend>
+        <label><input id="" type="radio" name="" value="" checked>option 1</label> <!--selected by default-->
+        <label><input id="" type="radio" name="" value="">option 2</label>
+    </fieldset>
+    <!--checkbox to select many out of multiple values-->
+    <fieldset>  <!--name attribute should be same for all options-->
+        <legend>caption for field</legend>
+        <label><input id="" type="checkbox" name="" value="" checked>option 1</label> <!--selected by default-->
+        <label><input id="" type="checkbox" name="" value="">option 2</label>
+    </fieldset>
+
+    
+</form>
